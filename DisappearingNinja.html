@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disappearing Ninja</title>
+    <link rel="stylesheet" href="DisappearingNinja.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script>
+        $(document).ready(function(){
+
+           $("img").click(function(){
+               $(this).hide("slow");
+           }); 
+
+           $("button").click(function(){
+               $("img").show("slow");
+           })
+        })
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Disappearing Ninja</h1>
+    </br>
+        <div id="images">
+            <img src="dojocat.jpg" alt="ninjaCat">
+            <img src="dojocat.jpg" alt="ninjaCat">
+            <img src="dojocat.jpg" alt="ninjaCat">
+            <img src="dojocat.jpg" alt="ninjaCat">
+            <img src="dojocat.jpg" alt="ninjaCat">
+            <img src="dojocat.jpg" alt="ninjaCat">
+            <img src="dojocat.jpg" alt="ninjaCat">
+            <img src="dojocat.jpg" alt="ninjaCat">
+        </div>
+        <button>Reset</button>
+    </div>
+    
+</body>
+</html>

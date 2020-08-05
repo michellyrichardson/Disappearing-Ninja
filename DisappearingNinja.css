@@ -1,0 +1,31 @@
+*{
+    margin: 1px;
+    padding: 10px;
+}
+
+#wrapper{
+    margin: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 320px;
+    height: 340px;
+    margin: 5px;
+}
+
+button{
+    width: 95px;
+    padding: 5px 25px;
+    box-shadow: 0px 15px 15px 0px silver;
+    background-color: red;
+    
+}
+
+#images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}
